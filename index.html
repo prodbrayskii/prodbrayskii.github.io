@@ -1,9 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #121212; color: white; padding: 20px; }
+        .profile-img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; }
+        .links-container { margin: 30px auto; max-width: 400px; }
+        .social-link { display: block; background: #24292e; color: white; padding: 15px; margin: 10px 0; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.2s; }
+        .social-link:hover { background: #007acc; }
+        .music-container { margin: 40px auto; max-width: 600px; }
+        iframe { border-radius: 12px; margin-bottom: 15px; }
+    </style>
 </head>
 <body>
-    <h1>Hello World! Welcome to my site.</h1>
+
+    <!-- Profile Header -->
+    <img src="https://placeholder.com" alt="Profile Picture" class="profile-img">
+    <h1>Your Name</h1>
+    <p>Musician & Creator</p>
+
+    <!-- Social Links (Linktree Style) -->
+    <div class="links-container">
+        <a href="https://instagram.com" class="social-link" target="_blank">Instagram</a>
+        <a href="https://twitter.com" class="social-link" target="_blank">X / Twitter</a>
+        <a href="https://youtube.com" class="social-link" target="_blank">YouTube</a>
+    </div>
+
+    <!-- Music Section -->
+    <div class="music-container">
+        <h2>Listen to My Music</h2>
+        
+        <!-- Replace the src below with your own Spotify Embed code -->
+        <iframe src="https://spotify.com" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <!-- Replace the src below with your own SoundCloud Embed code -->
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://soundcloud.com"></iframe>
+    </div>
+
 </body>
 </html>
